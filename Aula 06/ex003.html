@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro programa em JS</title>
+    <style>
+        body{
+            background-color: aqua;
+            color: rgb(8, 1, 1); /*comentário em CSS*/
+            font: normal 15pt Arial;
+        }
+        h1{
+            color: rgb(64, 199, 38);
+        }
+        p{
+            color: rgb(4, 36, 36);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>Iniciando a programação em Java Script em <strong>08/04/2024</strong>.</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt("Digite um número:")) //string
+        var n2 = Number.parseInt(window.prompt("Digite outro número:"))//string
+        var s = n1 + n2
+        window.alert (`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        //(number + number) para adição
+        //(string + string) para concatenação
+        
+    </script>
+</html>
